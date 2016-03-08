@@ -20,19 +20,6 @@ def checkWinner(board, player):
             (board['top-R'] == player and board['mid-M'] == player and board['low-L'] == player
 
 
-def turn = startingPlayer
-     for i in range(9):
-         printBoard(board)
-         print('Turn for ' + turn + '. Move on which space?')
-         move = input()
-         board[move] = turn
-         if( checkWinner(board, 'X') ):
-             print('X wins!')
-             break
-         elif ( checkWinner(board, 'O') ):
-             print('O wins!')
-             break
-
 def startGame(startingPlayer, board):
     turn = startingPlayer 
     for i in range(9): #There are only 9 squares so there can be a maximum of 9 turns
@@ -52,4 +39,4 @@ def startGame(startingPlayer, board):
         else:
             turn = 'X' #otherwise its X's turn
         
-    printBoard(board)
+    print Board(board)
