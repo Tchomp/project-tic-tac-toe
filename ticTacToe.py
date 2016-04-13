@@ -36,3 +36,4 @@ def startGame(startingPlayer, board):
             turn = 'O' #changes to O's turn
         else:
             turn = 'X' #otherwise its X's turn
+     printBoard(board)
