@@ -16,7 +16,7 @@ def checkWinner(board, player):
             (board['top-M'] == player and board['mid-M'] == player and board['low-M'] == player) or
             (board['top-R'] == player and board['mid-R'] == player and board['low-R'] == player) or
             (board['top-L'] == player and board['mid-M'] == player and board['low-R'] == player) or
-            (board['top-R'] == player and board['mid-M'] == player and board['low-L'] == player
+            (board['top-R'] == player and board['mid-M'] == player and board['low-L'] == player)
              
 def startGame(startingPlayer, board):
     turn = startingPlayer 
